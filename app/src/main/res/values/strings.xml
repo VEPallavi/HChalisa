@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">HChalisa</string>
+    <string name="txt_shri_hanuman_chalisa">|| श्री हनुमान चालीसा ||</string>
+    <string name="txt_hanuman_chalisa">हनुमान चालीसा</string>
+    <string name="txt_aarti">आरती</string>
+    <string name="txt_doha">दोहा</string>
+    <string name="txt_chaupai">चौपाई</string>
+
+
+
+
+
+
+
+
+    <string name="correct"><b>CORRECTNESS IS</b> \n
+                           <b>%1$d</b> OUT OF 6</string>
+    <string name="true_text">true</string>
+    <string name="false_text">false</string>
+    <string name="correct_answer">That\'s correct</string>
+    <string name="wrong_answer">That\'s incorrect</string>
+    <string name="a">Simran loves Chocolates.</string>
+    <string name="b">Simran Knows Following Skills:\n \t
+                     <b>Ballet</b>\n \t
+                     <b>HipHop</b></string>
+    <string name="c">Do You Think Simran Believes In:\n \t
+                     <b>Luck!!!</b></string>
+    <string name="d">Do You Think Simran Wants To Visit <b>Italy</b></string>
+    <string name="e">Simran Loves Loyalty.</string>
+    <string name="f">Simran Sleeps Less</string>
+    <string name="next_text">next</string>
+    <string name="prev_text">previous</string>
 </resources>
