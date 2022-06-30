@@ -10,7 +10,6 @@ import androidx.fragment.app.FragmentTransaction
 import com.ve.hchalisa.R
 import com.ve.hchalisa.fragment.HanumanArtiFragment
 import com.ve.hchalisa.fragment.HanumanChalisaFragment
-import com.ve.hchalisa.fragment.HanumanChalisaFragmentNEWW
 import com.ve.hchalisa.helper.AppConstants
 import kotlinx.android.synthetic.main.activity_home.*
 
@@ -25,12 +24,10 @@ class HomeActivity: AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-
         manageTabButtonClick(tv_chalisa)
         mSelectedTabBtnPosition = AppConstants.HANUMAN_CHALISA
         setupClickListener()
     }
-
 
 
     private fun setupClickListener()
@@ -55,7 +52,6 @@ class HomeActivity: AppCompatActivity(), View.OnClickListener {
             }
         }
     }
-
 
 
     private fun manageTabButtonClick(selectedBtn: View) {
@@ -85,7 +81,7 @@ class HomeActivity: AppCompatActivity(), View.OnClickListener {
         var mFragment: Fragment? = null
         when (id) {
             1 -> {
-                mFragment = HanumanChalisaFragmentNEWW()
+                mFragment = HanumanChalisaFragment()
                 replaceFragment(mFragment)
             }
             2 -> {

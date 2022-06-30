@@ -5,8 +5,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-
-    <TextView
+    <com.ve.hchalisa.customViews.BerkahiTextView
         android:id="@+id/tv_aarti_chalisa"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -16,6 +15,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:textSize="@dimen/_18sdp"
         android:textColor="@color/white"
-        android:text="dqwdwef"/>
+        android:text=""/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

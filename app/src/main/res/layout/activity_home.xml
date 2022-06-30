@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -27,7 +28,7 @@
         android:layout_marginLeft="@dimen/_20sdp"
         android:layout_marginRight="@dimen/_20sdp">
 
-        <TextView
+        <com.ve.hchalisa.customViews.BerkahiTextView
             android:id="@+id/txt_discover"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,8 +42,6 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/lyt_tabButton"
         android:layout_width="0dp"
@@ -54,7 +53,7 @@
         android:layout_marginLeft="@dimen/_10sdp"
         android:layout_marginRight="@dimen/_10sdp">
 
-        <TextView
+        <com.ve.hchalisa.customViews.BerkahiTextView
             android:id="@+id/tv_chalisa"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -70,8 +69,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
-
-        <TextView
+        <com.ve.hchalisa.customViews.BerkahiTextView
             android:id="@+id/tv_aarti"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -115,6 +113,5 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lyt_tabButton"
         app:layout_constraintBottom_toBottomOf="parent"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

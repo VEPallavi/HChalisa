@@ -8,7 +8,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.ve.hchalisa.R
-import com.ve.hchalisa.adapter.HanumanArtiAdapter
 import com.ve.hchalisa.helper.AppConstants
 import com.ve.hchalisa.modal.HanumanAartiContentModel
 import com.ve.hchalisa.modal.HanumanAartiMainModel
@@ -18,7 +17,6 @@ import java.io.IOException
 
 
 class HanumanArtiFragment: Fragment(), View.OnClickListener {
-    var adapter: HanumanArtiAdapter?= null
     var rv_hanuman_chalisa: TextView?= null
     var iv_previous: ImageView?= null
     var iv_next: ImageView?= null

@@ -25,7 +25,7 @@
             android:layout_marginBottom="@dimen/_20sdp"
             android:background="@drawable/slate">
 
-            <TextView
+            <com.ve.hchalisa.customViews.BerkahiTextView
                 android:id="@+id/rv_hanuman_chalisa"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -60,7 +60,7 @@
                 android:src="@drawable/text_splash"
                 android:layout_gravity="center"/>
 
-            <TextView
+            <com.ve.hchalisa.customViews.BerkahiTextView
                 android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -89,7 +89,6 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 android:src="@drawable/back_active"/>
-
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="wrap_content"
@@ -133,10 +132,9 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     android:textSize="@dimen/_12sdp"
                     android:textColor="@color/white"
-                    android:text="wdq"/>
+                    android:text=""/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
 
             <ImageView
                 android:id="@+id/iv_next"
@@ -149,8 +147,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
