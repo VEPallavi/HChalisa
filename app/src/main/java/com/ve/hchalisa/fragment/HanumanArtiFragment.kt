@@ -159,6 +159,17 @@ class HanumanArtiFragment: Fragment(), View.OnClickListener {
         tv_title?.setText(resources.getString(R.string.txt_aarti))
         rv_hanuman_chalisa?.setText(arrayListAartiContent.get(currentIndex).content)
         tv_next?.setText(""+arrayListAartiContent.size)
+
+
+
+        if (currentIndex == 0) {
+            tv_previous?.setText("" + (currentIndex+1))
+            iv_previous?.setImageResource(R.drawable.back_disable)
+            iv_previous?.isClickable = false
+            iv_next?.setImageResource(R.drawable.forward)
+            iv_next?.isClickable = true
+        }
+
     }
 
     private fun nextScreenData() {

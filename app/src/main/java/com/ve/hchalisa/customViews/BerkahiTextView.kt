@@ -27,8 +27,6 @@ class BerkahiTextView : androidx.appcompat.widget.AppCompatTextView {
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-
-
     }
 
 }

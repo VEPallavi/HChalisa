@@ -15,6 +15,7 @@ import org.json.JSONObject
 import java.io.IOException
 
 
+
 class HanumanChalisaFragment: Fragment(), View.OnClickListener{
     var rv_hanuman_chalisa: TextView?= null
     var iv_previous: ImageView?= null
@@ -123,6 +124,16 @@ class HanumanChalisaFragment: Fragment(), View.OnClickListener{
         }
         rv_hanuman_chalisa?.setText(arrayListChalistContent.get(currentIndex).content)
         tv_next?.setText(""+arrayListChalistContent.size)
+
+
+        if (currentIndex == 0) {
+            tv_title?.setText(resources.getString(R.string.txt_doha))
+            tv_previous?.setText("" + (currentIndex+1))
+            iv_previous?.setImageResource(R.drawable.back_disable)
+            iv_previous?.isClickable = false
+            iv_next?.setImageResource(R.drawable.forward)
+            iv_next?.isClickable = true
+        }
     }
 
     private fun nextScreenData()
@@ -177,7 +188,6 @@ class HanumanChalisaFragment: Fragment(), View.OnClickListener{
             iv_next?.setImageResource(R.drawable.forward)
             iv_next?.isClickable = true
         }
-
     }
 
 
